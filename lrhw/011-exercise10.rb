@@ -22,8 +22,8 @@
 #  To solve  this  problem you  escape  double-quotes and  single-quotes so Ruby
 #  knows to include the in the string. Here's an example:
 #
-#   		"I am 6'2\" tall."			# escape double-quote inside string
-#   		'I am 6\'2" tall.'			# escape single-quote inside string
+#   		"I am 6'2\" tall."	# escape double-quote inside string
+#   		'I am 6\'2" tall.'	# escape single-quote inside string
 #
 #  The second way is by using  triple-quotes, which is just """ and works like a
 #  string, but you can also put as many lines of text as you want until you type
@@ -52,21 +52,21 @@ puts fat_cat
 #  these,but memorize their format and what they do anyway. Try them out in some
 #  strings to see if you can make them work.
 #
-# 		Escape 					What it Does
-#  		----------				-----------------------
-# 		\\						Backslash (\)
-# 		\'						Single-Quote (')
-#   	\"						Double-Quote (")
-#  		\a 						ASCII bel (BEL)
-#  		\b 						ASCII backspace (BS)
-#  		\f     					ASCII formfeed (FF)
-#    	\n 						ASCII linefeed (LF)
-#  		\r 						ASCII carriage Return (CR)
-#  		\t 						ASCII horizontal Tab (TAB)
-#  		\uxxxx  				Character with 16-bit hex value (Unicode only)
-#   	\v   					ASCII vertical tab (VT)
-#  		\ooo 					Character with octal value ooo
-#      	\xhh 					Character with hex value hh
+#   	        Escape 		What it Does
+#  		----------	-----------------------
+# 		\\		Backslash (\)
+# 		\'		Single-Quote (')
+#   	        \"		Double-Quote (")
+#  		\a 		ASCII bel (BEL)
+#  		\b 		ASCII backspace (BS)
+#  		\f     		ASCII formfeed (FF)
+#    	        \n 		ASCII linefeed (LF)
+#  		\r 		ASCII carriage Return (CR)
+#  		\t 		ASCII horizontal Tab (TAB)
+#  		\uxxxx  	Character with 16-bit hex value (Unicode only)
+#   	        \v   	        ASCII vertical tab (VT)
+#  		\ooo 		Character with octal value ooo
+#      	        \xhh 		Character with hex value hh
 #
 #
 #  Study Drills
